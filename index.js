@@ -15,13 +15,9 @@ setInterval(async () => {
   }
 }, 5 * 60 * 1000); // κάθε 5 λεπτά
 /////////////////////////////////////////////////////////////
-app.get("/roblox/customer312fd", (req, res) => {
-  res.json([{ script1: "Hi roblox!" },
-          { script2: "Script 5" }]);
-});
 
-app.get("/roblox/customer348fd", (req, res) => {
-  res.json([{ script1: "Script Number 5" }]);
+app.get("/roblox/customersPlaces", (req, res) => {
+  res.json([{114248049331485: "Available" }]);
 });
 
 const PORT = process.env.PORT || 10000;
