@@ -9,7 +9,7 @@ const url = "https://opergamertection.onrender.com"; // βάλε το URL που
 app.get("/roblox/customersPlaces", (req, res) => {
   res.json({
 114248049331485: "Available",
-114248049331485: "Available"
+114248049385: "Available"
 });
 });
 
